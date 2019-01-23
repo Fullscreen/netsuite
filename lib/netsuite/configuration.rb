@@ -323,7 +323,7 @@ module NetSuite
       if timeout
         self.open_timeout = timeout
       else
-        attributes[:open_timeout] ||= 60
+        attributes[:open_timeout]
       end
     end
 
